@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
 }
 
 .navbar,
@@ -16,7 +17,10 @@
 }
 
 .navbar {
-    background-color: blue;
+    background-color: rgb(112, 186, 230);
+    position: sticky;
+    top: 0;
+    z-index: 10;
 }
 
 .nav-list {
@@ -43,8 +47,6 @@
 
 
 .background {
-    height: 700px;
-    width: 98.75vw;
     display: flex;
 }
 
@@ -55,6 +57,7 @@
     width: 1000px;
     position: relative;
     width: 70%;
+
 }
 .header{
     position: absolute;
@@ -64,10 +67,11 @@
 .profile{
     width: 30%;
     height: 500px;
-    background-color: red;
+    background-color: rgb(112, 186, 230);
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 5px;
 }
 .profile-pic{
     height: 200px;
@@ -76,4 +80,47 @@
     background-color: green;
     margin-top: 10px;
 }
+.about{
+    background-color: lightgray;
+    padding: 50px 100px;
+}
+.info{
+    background-color: gray;
+    padding: 50px 100px; 
+    display: flex;
+    justify-content: space-around;
+}
+.info-education{
+    display: flex;
+    flex-direction: column;
+}
+.info-experience{
 
+}
+.info-details{
+
+}
+.skills{
+    background-color: lightgray;
+    padding: 50px 100px;
+}
+
+.progress-div{
+    display: flex;
+    gap: 50px;
+}
+
+.progress{
+    display: flex;
+    align-items: center;
+}
+.progress-main{
+    width: 100px;
+    height: 5px;
+    background-color: green;
+}
+.progress-shadow{
+    width: 30px;
+    height: 2px;
+    background-color: #333;
+}
