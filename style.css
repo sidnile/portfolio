@@ -323,6 +323,21 @@
 .soft-skills-list{
     margin-left: 20px;
 }
+.project{
+    background-color: white;
+    padding-right: 500px;
+}
+.project-title{
+    color: #5569DC;
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+.project-info{
+    display: flex;
+    flex-direction: column;
+
+}
 
 .footer{
     background-color: #EEF0FC;
